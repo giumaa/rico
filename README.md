@@ -26,7 +26,7 @@ An offline assistant that speaks Libyan Arabic and runs entirely on your own dev
 | ويندوز 10/11 (x64) | [Rico-Setup-0.4.0-x64.exe](https://github.com/giumaa/rico/releases/download/v0.4.0/Rico-Setup-0.4.0-x64.exe) |
 | ماك (Apple Silicon: M1 وما فوق) | [Rico-0.4.0-mac-arm64.dmg](https://github.com/giumaa/rico/releases/download/v0.4.0/Rico-0.4.0-mac-arm64.dmg) |
 | ماك (Intel) | [Rico-0.4.0-mac-x64.dmg](https://github.com/giumaa/rico/releases/download/v0.4.0/Rico-0.4.0-mac-x64.dmg) |
-| لينكس | [AppImage](https://github.com/giumaa/rico/releases/download/v0.4.0/Rico-0.4.0-linux-x64.AppImage) · [deb](https://github.com/giumaa/rico/releases/download/v0.4.0/rico_0.4.0_amd64.deb) |
+| لينكس | [AppImage](https://github.com/giumaa/rico/releases/download/v0.4.0/Rico-0.4.0-linux-x86_64.AppImage) · [deb](https://github.com/giumaa/rico/releases/download/v0.4.0/rico_0.4.0_amd64.deb) |
 | أندرويد 8.0+ (arm64) | [Rico-Android-0.2.0-arm64-v8a.apk](https://github.com/giumaa/rico/releases/download/android-v0.2.0/Rico-Android-0.2.0-arm64-v8a.apk) |
 
 كل إصدار يجي معاه ملف `SHA256SUMS.txt` باش تتأكد إن الملف سليم. كل الإصدارات: [Releases](https://github.com/giumaa/rico/releases).
