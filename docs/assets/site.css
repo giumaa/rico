@@ -166,3 +166,6 @@ footer a { color: var(--ink-2); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+.btn small { direction: ltr; unicode-bidi: isolate; }
+[dir="rtl"] .btn small { text-align: right; }
