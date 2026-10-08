@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-title-ar="ريكو · مساعد ذكي بالليبي بدون إنترنت" data-title-en="Rico · Offline Libyan-dialect AI assistant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ريكو · مساعد ذكي بالليبي بدون إنترنت</title>
+<meta name="description" content="ريكو مساعد ذكي يحكي ليبي، يخدم على جهازك بدون إنترنت، بلا تسجيل دخول ولا تتبع. حمّله لويندوز وماك ولينكس وأندرويد.">
+<meta name="theme-color" content="#F6F1E9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0D0F13" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="ريكو · مساعد ذكي بالليبي بدون إنترنت">
+<meta property="og:image" content="assets/icon-256.png">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon-256.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>html[lang="ar"] .en, html[lang="en"] .ar { display: none !important; }</style>
+<script src="assets/site.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="bar">
+    <a class="back" href="./"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><span class="ar">الرئيسية</span><span class="en">Home</span></a>
+    <div class="tools">
+      <button class="chip" id="themeBtn" type="button" aria-label="Theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      <button class="chip" id="langBtn" type="button">English</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <img class="logo-xl" src="assets/icon.svg" alt="Rico">
+      <h1><span class="ar">أهلاً، أنا <span class="grad">ريكو</span></span><span class="en">Meet <span class="grad">Rico</span></span></h1>
+      <p class="lead">
+        <span class="ar">مساعد ذكي يحكي ليبي، طوّره ودرّبه جمعة أبوراس. يخدم على جهازك بدون إنترنت، ومحادثاتك تبقى عندك بس.</span>
+        <span class="en">An AI assistant that speaks Libyan Arabic, built and trained by Juma Abouras. It runs on your device with no internet, and your chats never leave it.</span>
+      </p>
+      <p style="margin-top:22px"><a class="btn" href="#download"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg><span class="ar">حمّل ريكو</span><span class="en">Download Rico</span></a></p>
+    </div>
+
+    <section>
+      <div class="grid">
+        <div class="tile"><div class="em">🇱🇾</div><h3><span class="ar">يحكي ليبي</span><span class="en">Speaks Libyan</span></h3><p><span class="ar">متدرّب على اللهجة الليبية، ويجاوب بالإنجليزي لو كتبتله بالإنجليزي.</span><span class="en">Trained on the Libyan dialect; replies in English when you write in English.</span></p></div>
+        <div class="tile"><div class="em">📴</div><h3><span class="ar">بدون إنترنت</span><span class="en">Fully offline</span></h3><p><span class="ar">بعد ما تحمّل النموذج مرة وحدة، يخدم من غير نت تماماً.</span><span class="en">Download the model once, then it works with no connection at all.</span></p></div>
+        <div class="tile"><div class="em">🔒</div><h3><span class="ar">خصوصية كاملة</span><span class="en">Private by design</span></h3><p><span class="ar">لا تسجيل دخول، لا تتبع ولا إحصائيات. محادثاتك على جهازك بس.</span><span class="en">No login, no tracking, no analytics. Your chats stay on your device.</span></p></div>
+        <div class="tile"><div class="em">🖼️</div><h3><span class="ar">يشوف الصور</span><span class="en">Understands images</span></h3><p><span class="ar">ابعتله صورة، ويوصفها ولا يقرا اللي مكتوب فيها.</span><span class="en">Send a picture and Rico describes it or reads the text in it.</span></p></div>
+      </div>
+    </section>
+
+    <section id="download">
+      <div class="sec-head">
+        <h2><span class="ar">حمّل ريكو</span><span class="en">Download</span></h2>
+        <p><span class="ar">مجاني. اختار جهازك — الزر اللي يناسب جهازك معلّم.</span><span class="en">Free. Pick your device — the one matching yours is highlighted.</span></p>
+      </div>
+      <div class="dl">
+        <a class="btn" data-os="win" href="https://github.com/giumaa/rico/releases/download/v0.4.0/Rico-Setup-0.4.0-x64.exe"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5 10.5 4.4v7.1H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg><span><span class="ar">ويندوز</span><span class="en">Windows</span><small>.exe · 151 MB</small></span></a>
+        <a class="btn" data-os="android" href="https://github.com/giumaa/rico/releases/download/android-v0.2.0/Rico-Android-0.2.0-arm64-v8a.apk"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 9h10v8a1 1 0 0 1-1 1h-1v3h-2v-3h-2v3H9v-3H8a1 1 0 0 1-1-1zM5 9.5a1 1 0 0 1 2 0v5a1 1 0 0 1-2 0zm12 0a1 1 0 0 1 2 0v5a1 1 0 0 1-2 0zM7.3 8a4.8 4.8 0 0 1 9.4 0zM9.5 5.8a.6.6 0 1 0 0-.1zm4.4 0a.6.6 0 1 0 0-.1z"/></svg><span><span class="ar">أندرويد</span><span class="en">Android</span><small>.apk · 11 MB</small></span></a>
+        <a class="btn ghost" data-os="mac" href="https://github.com/giumaa/rico/releases/download/v0.4.0/Rico-0.4.0-mac-arm64.dmg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5a4.3 4.3 0 0 0-3.4-1.8c-1.4-.2-2.8.8-3.5.8s-1.8-.8-3-.8a4.5 4.5 0 0 0-3.8 2.3c-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3a10 10 0 0 0 1.3-2.6 4 4 0 0 1-2.5-3.7zM14.1 5.8A4 4 0 0 0 15 3a4.1 4.1 0 0 0-2.7 1.4 3.8 3.8 0 0 0-1 2.7 3.4 3.4 0 0 0 2.8-1.3z"/></svg><span><span class="ar">ماك (M1 وأحدث)</span><span class="en">Mac (Apple silicon)</span><small>.dmg · 160 MB</small></span></a>
+        <a class="btn ghost" href="https://github.com/giumaa/rico/releases/download/v0.4.0/Rico-0.4.0-mac-x64.dmg"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5a4.3 4.3 0 0 0-3.4-1.8c-1.4-.2-2.8.8-3.5.8s-1.8-.8-3-.8a4.5 4.5 0 0 0-3.8 2.3c-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3a10 10 0 0 0 1.3-2.6 4 4 0 0 1-2.5-3.7zM14.1 5.8A4 4 0 0 0 15 3a4.1 4.1 0 0 0-2.7 1.4 3.8 3.8 0 0 0-1 2.7 3.4 3.4 0 0 0 2.8-1.3z"/></svg><span><span class="ar">ماك (Intel)</span><span class="en">Mac (Intel)</span><small>.dmg · 177 MB</small></span></a>
+        <a class="btn ghost" data-os="linux" href="https://github.com/giumaa/rico/releases/download/v0.4.0/rico_0.4.0_amd64.deb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 17l6-5-6-5M12 19h8"/></svg><span><span class="ar">لينكس</span><span class="en">Linux</span><small>.deb · 180 MB</small></span></a>
+      </div>
+      <p class="note"><span class="ar">الإصدارات كلها والتحقق (SHA256) في</span><span class="en">All versions and checksums (SHA256) on</span> <a href="https://github.com/giumaa/rico/releases">GitHub Releases</a>. <span class="ar">آيفون: مش متوفر توا.</span><span class="en">iPhone: not available yet.</span></p>
+    </section>
+
+    <section id="install">
+      <div class="sec-head">
+        <h2><span class="ar">كيف تثبّته؟</span><span class="en">How to install</span></h2>
+        <p><span class="ar">ريكو برنامج مستقل وما عندوش توقيع رسمي من المتاجر، فجهازك ممكن يحذّرك أول مرة. هذا عادي — اتبع الخطوات.</span><span class="en">Rico is independent and not signed by an app store, so your device may warn you the first time. That's expected — follow these steps.</span></p>
+      </div>
+      <div class="tabs" role="tablist">
+        <button class="chip" role="tab" aria-controls="p-win" aria-selected="true"><span class="ar">ويندوز</span><span class="en">Windows</span></button>
+        <button class="chip" role="tab" aria-controls="p-android" aria-selected="false"><span class="ar">أندرويد</span><span class="en">Android</span></button>
+        <button class="chip" role="tab" aria-controls="p-mac" aria-selected="false"><span class="ar">ماك</span><span class="en">Mac</span></button>
+        <button class="chip" role="tab" aria-controls="p-linux" aria-selected="false"><span class="ar">لينكس</span><span class="en">Linux</span></button>
+      </div>
+
+      <div class="panel" id="p-win" role="tabpanel">
+        <ol class="steps ar">
+          <li><span>حمّل ملف <code>Rico-Setup-0.4.0-x64.exe</code>. لو المتصفح قال «الملف مش شائع»، اضغط <b>⋯</b> ثم <b>احتفظ به (Keep)</b>.</span></li>
+          <li><span>افتح الملف. لو طلعتلك شاشة زرقا «Windows protected your PC»، اضغط <b>More info</b> وبعدين <b>Run anyway</b>.</span></li>
+          <li><span>كمّل التثبيت وافتح ريكو، واختار النموذج اللي يناسب الرام في جهازك (مكتوب على كل بطاقة).</span></li>
+          <li><span>استنى التحميل يكمل مرة وحدة — بعدها ريكو يخدم بدون إنترنت.</span></li>
+        </ol>
+        <ol class="steps en">
+          <li><span>Download <code>Rico-Setup-0.4.0-x64.exe</code>. If the browser says the file isn't commonly downloaded, click <b>⋯</b> → <b>Keep</b>.</span></li>
+          <li><span>Open it. If a blue "Windows protected your PC" screen appears, click <b>More info</b> → <b>Run anyway</b>.</span></li>
+          <li><span>Finish the installer, open Rico and pick the model that matches your RAM (shown on each card).</span></li>
+          <li><span>Let the one-time download finish — after that Rico works offline.</span></li>
+        </ol>
+        <div class="warn"><span class="ar">لو ويندوز منع البرنامج نهائياً (ميزة <b>Smart App Control</b> في ويندوز 11)، ما فيش زر «Run anyway». الحل: الإعدادات ← الخصوصية والأمان ← أمان Windows ← التحكم في التطبيقات والمتصفح ← Smart App Control ← إيقاف. (ملاحظة: الإيقاف ما ينفعش ترجعه بعدين إلا بإعادة تثبيت ويندوز.)</span><span class="en">If Windows blocks it completely (Windows 11 <b>Smart App Control</b>), there's no "Run anyway". Fix: Settings → Privacy &amp; security → Windows Security → App &amp; browser control → Smart App Control → Off. (Note: once off, it can only be turned back on by reinstalling Windows.)</span></div>
+      </div>
+
+      <div class="panel" id="p-android" role="tabpanel" hidden>
+        <ol class="steps ar">
+          <li><span>حمّل ملف <code>Rico-Android-0.2.0-arm64-v8a.apk</code> من التلفون. لو كروم حذّرك، اضغط <b>تنزيل على أي حال</b>.</span></li>
+          <li><span>افتح الملف من الإشعارات ولا من «التنزيلات». لو قالك «لأسباب أمنية…»، اضغط <b>الإعدادات</b> وفعّل <b>السماح من هذا المصدر</b>، وارجع.</span></li>
+          <li><span>اضغط <b>تثبيت</b>. لو Google Play Protect سألك، اختار <b>تثبيت على أي حال</b> (التطبيق ما يبعث أي بيانات).</span></li>
+          <li><span>افتح ريكو واختار النموذج: <b>ريكو ميني</b> لتلفون فيه ٤–٦ جيجا رام، ولا <b>ريكو لايت</b> لـ ٨ جيجا وأكثر. يفضّل تحمّل على واي فاي.</span></li>
+        </ol>
+        <ol class="steps en">
+          <li><span>Download <code>Rico-Android-0.2.0-arm64-v8a.apk</code> on your phone. If Chrome warns you, tap <b>Download anyway</b>.</span></li>
+          <li><span>Open it from notifications or Downloads. If you see "For your security…", tap <b>Settings</b>, enable <b>Allow from this source</b>, and go back.</span></li>
+          <li><span>Tap <b>Install</b>. If Google Play Protect asks, choose <b>Install anyway</b> (the app sends no data).</span></li>
+          <li><span>Open Rico and pick a model: <b>Rico Mini</b> for 4–6 GB RAM phones, or <b>Rico Lite</b> for 8 GB and up. Wi-Fi recommended.</span></li>
+        </ol>
+      </div>
+
+      <div class="panel" id="p-mac" role="tabpanel" hidden>
+        <ol class="steps ar">
+          <li><span>حمّل ملف الـ <code>.dmg</code> المناسب لجهازك (M1 وأحدث ولا Intel)، وافتحه واسحب ريكو لمجلد <b>Applications</b>.</span></li>
+          <li><span>أول مرة: اضغط كليك يمين على ريكو ← <b>فتح (Open)</b> ← <b>فتح</b>.</span></li>
+          <li><span>لو قالك «التطبيق تالف»، افتح Terminal واكتب: <code>xattr -dr com.apple.quarantine /Applications/Rico.app</code> وبعدين افتحه عادي.</span></li>
+        </ol>
+        <ol class="steps en">
+          <li><span>Download the right <code>.dmg</code> (Apple silicon or Intel), open it and drag Rico to <b>Applications</b>.</span></li>
+          <li><span>First launch: right-click Rico → <b>Open</b> → <b>Open</b>.</span></li>
+          <li><span>If macOS says the app is damaged, run in Terminal: <code>xattr -dr com.apple.quarantine /Applications/Rico.app</code>, then open it normally.</span></li>
+        </ol>
+      </div>
+
+      <div class="panel" id="p-linux" role="tabpanel" hidden>
+        <ol class="steps ar">
+          <li><span>حمّل <code>rico_0.4.0_amd64.deb</code> وثبّته: <code>sudo apt install ./rico_0.4.0_amd64.deb</code></span></li>
+          <li><span>افتح ريكو من قائمة التطبيقات.</span></li>
+        </ol>
+        <ol class="steps en">
+          <li><span>Download <code>rico_0.4.0_amd64.deb</code> and install: <code>sudo apt install ./rico_0.4.0_amd64.deb</code></span></li>
+          <li><span>Launch Rico from your applications menu.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head">
+        <h2><span class="ar">أي نموذج يناسبك؟</span><span class="en">Which model fits you?</span></h2>
+        <p><span class="ar">تختاره داخل التطبيق بعد التثبيت، وتقدر تبدّله وقت ما تبي.</span><span class="en">You choose inside the app after installing, and can switch anytime.</span></p>
+      </div>
+      <div class="models">
+        <div class="model"><span class="ram"><span class="ar">٤–٦ جيجا رام</span><span class="en">4–6 GB RAM</span></span><h3><span class="ar">ريكو ميني</span><span class="en">Rico Mini</span></h3><p><span class="ar">خفيف هلبا — للتلفونات والأجهزة القديمة. ١٫٣ جيجا.</span><span class="en">Very light — phones and older PCs. 1.3 GB.</span></p></div>
+        <div class="model"><span class="ram"><span class="ar">٨ جيجا رام</span><span class="en">8 GB RAM</span></span><h3><span class="ar">ريكو لايت</span><span class="en">Rico Lite</span></h3><p><span class="ar">سريع ومتدرّب على الليبي — الأنسب لأغلب الناس. ٢٫٧ جيجا.</span><span class="en">Fast, Libyan-trained — best for most people. 2.7 GB.</span></p></div>
+        <div class="model"><span class="ram"><span class="ar">١٦ جيجا رام</span><span class="en">16 GB RAM</span></span><h3><span class="ar">ريكو</span><span class="en">Rico</span></h3><p><span class="ar">أذكى وأعمق في الشرح. ٧٫٤ جيجا.</span><span class="en">Smarter, deeper answers. 7.4 GB.</span></p></div>
+        <div class="model"><span class="ram"><span class="ar">٣٢ جيجا رام وأكثر</span><span class="en">32 GB+ RAM</span></span><h3><span class="ar">ريكو ماكس</span><span class="en">Rico Max</span></h3><p><span class="ar">أعلى جودة للأجهزة القوية. ١٦٫٨ جيجا.</span><span class="en">Top quality for powerful machines. 16.8 GB.</span></p></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><h2><span class="ar">أسئلة</span><span class="en">FAQ</span></h2></div>
+      <details><summary><span class="ar">ليش جهازي يحذّرني؟ هل البرنامج آمن؟</span><span class="en">Why does my device warn me? Is it safe?</span></summary><p><span class="ar">التحذير يطلع لأي برنامج ما عندوش شهادة توقيع مدفوعة من المتاجر. ريكو ما يتصلش بالإنترنت إلا وقت تحميل النموذج اللي تختاره انت، وما يبعث أي بيانات.</span><span class="en">The warning appears for any app without a paid store signing certificate. Rico only goes online to download the model you choose, and never sends any data.</span></p></details>
+      <details><summary><span class="ar">هل يحتاج إنترنت؟</span><span class="en">Does it need internet?</span></summary><p><span class="ar">بس مرة وحدة لتحميل النموذج. بعدها يخدم بدون نت تماماً.</span><span class="en">Only once, to download the model. After that it works fully offline.</span></p></details>
+      <details><summary><span class="ar">وين تتخزن محادثاتي؟</span><span class="en">Where are my chats stored?</span></summary><p><span class="ar">على جهازك بس. تقدر تمسحهم كلهم من الإعدادات.</span><span class="en">Only on your device. You can delete them all from Settings.</span></p></details>
+    </section>
+  </main>
+</div>
+<footer><div class="wrap">© 2026 <span class="ar">ريكو · جمعة أبوراس</span><span class="en">Rico · Juma Abouras</span> · <a href="https://giumaa-booking.netlify.app/" target="_blank" rel="noopener"><span class="ar">احجز استشارة</span><span class="en">Book a session</span></a></div></footer>
+</body>
+</html>
