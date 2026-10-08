@@ -171,3 +171,22 @@ footer a { color: var(--ink-2); }
 [dir="rtl"] .btn small { text-align: right; }
 
 [dir="rtl"] { --flip: scaleX(-1); }
+
+/* featured account card */
+.feature {
+  position: relative; display: flex; align-items: center; gap: 18px; margin-bottom: 18px; overflow: hidden;
+  padding: 22px 26px; border-radius: var(--r-xl); text-decoration: none; color: var(--accent-ink);
+  background: linear-gradient(135deg, var(--accent-2), var(--accent));
+  box-shadow: var(--glow); transition: transform .25s var(--ease), filter .25s var(--ease);
+}
+.feature::before { content: ""; position: absolute; inset: -60% auto auto -10%; width: 340px; height: 340px; border-radius: 50%; background: rgba(255, 255, 255, .14); }
+.feature:hover { transform: translateY(-3px); filter: saturate(1.08); }
+.feature-ico { position: relative; flex: none; width: 60px; height: 60px; border-radius: 18px; display: grid; place-items: center; background: rgba(255, 255, 255, .2); }
+.feature-ico svg { width: 32px; height: 32px; }
+.feature-text { position: relative; display: grid; gap: 2px; min-width: 0; }
+.feature-text strong { font: 700 1.55rem/1.35 var(--font-head); }
+.feature-text > span { font-weight: 500; opacity: .95; }
+.feature .handle { direction: ltr; unicode-bidi: isolate; font-weight: 700; white-space: nowrap; }
+.feature-go { position: relative; margin-inline-start: auto; flex: none; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: rgba(255, 255, 255, .22); }
+.feature-go svg { width: 20px; height: 20px; transform: var(--flip, none); }
+@media (max-width: 560px) { .feature { padding: 18px; gap: 14px; } .feature-ico { width: 52px; height: 52px; } .feature-go { display: none; } }
