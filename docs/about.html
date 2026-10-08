@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-title-ar="جمعة أبوراس · نبذة تعريفية" data-title-en="Juma Abouras · About">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>جمعة أبوراس · نبذة تعريفية</title>
+<meta name="description" content="جمعة أبوراس — مصمم منظومات أعمال ذكية من طرابلس، ليبيا. يحوّل الشغل اليدوي لمنظومات رقمية تخدم لحالها، ومطوّر ريكو.">
+<meta name="theme-color" content="#F6F1E9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0D0F13" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="جمعة أبوراس · مصمم منظومات أعمال ذكية">
+<meta property="og:image" content="assets/icon-256.png">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+html[lang="ar"] .en, html[lang="en"] .ar { display: none !important; }
+.about-hero { display: grid; gap: 22px; align-items: center; text-align: center; padding: clamp(28px, 7vw, 72px) 0 12px; }
+.role { display: inline-block; margin-top: 10px; padding: 6px 16px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 700; }
+.place { color: var(--muted); margin-top: 6px; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.tags span { border: 1px solid var(--line-2); background: var(--surface); border-radius: 999px; padding: 6px 12px; font-size: .9rem; color: var(--ink-2); direction: ltr; unicode-bidi: isolate; }
+.proj { display: grid; gap: 16px; }
+.proj .tile ul { margin: 8px 0 0; padding-inline-start: 20px; color: var(--ink-2); }
+.proj .tile li { margin: 4px 0; }
+.flow { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); counter-reset: f; }
+.flow .tile { counter-increment: f; }
+.flow .tile h3::before { content: counter(f) ". "; color: var(--accent); }
+.cta { text-align: center; }
+</style>
+<script src="assets/site.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="bar">
+    <a class="back" href="./"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><span class="ar">الرئيسية</span><span class="en">Home</span></a>
+    <div class="tools">
+      <button class="chip" id="themeBtn" type="button" aria-label="Theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      <button class="chip" id="langBtn" type="button">English</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="about-hero">
+      <div>
+        <h1><span class="ar">جمعة <span class="grad">أبوراس</span></span><span class="en">Juma <span class="grad">Abouras</span></span></h1>
+        <div class="role"><span class="ar">مصمم منظومات أعمال ذكية</span><span class="en">AI Business Systems Designer</span></div>
+        <div class="place"><span class="ar">طرابلس، ليبيا</span><span class="en">Tripoli, Libya</span></div>
+      </div>
+      <p class="lead">
+        <span class="ar">نحوّل الشغل اليدوي المبعثر لمنظومة رقمية وحدة تخدم لحالها — من أول رسالة يبعثها الزبون، للحجز والتأكيد، للمتابعة والتقارير اليومية، كلها من مكان واحد. نبدا دايماً بفهم كيف يخدم شغلك فعلاً، ونكمّل بمنظومة مجرّبة وجاهزة للتشغيل.</span>
+        <span class="en">I turn scattered manual work into one digital system that runs itself — from a customer's first message to booking, confirmation, follow-up and daily reports, all in one place. I always start by understanding how your business really runs, and finish with a tested system ready for live operation.</span>
+      </p>
+    </div>
+
+    <section>
+      <div class="sec-head"><h2><span class="ar">شن نبني</span><span class="en">What I build</span></h2></div>
+      <div class="grid">
+        <div class="tile"><div class="em">🖥️</div><h3><span class="ar">مواقع ولوحات تحكم</span><span class="en">Websites &amp; dashboards</span></h3><p><span class="ar">مواقع تعرض خدماتك وتستقبل الحجوزات والطلبات مباشرة، مع لوحة تدير منها الشغل.</span><span class="en">Sites that present your services and take bookings and orders directly, with a dashboard to run operations.</span></p></div>
+        <div class="tile"><div class="em">📅</div><h3><span class="ar">حجوزات وتحقق</span><span class="en">Booking &amp; verification</span></h3><p><span class="ar">حجز بتحقق آمن (OTP)، تأكيدات تلقائية، وتنبيهات فورية لفريقك.</span><span class="en">Bookings with secure OTP verification, automatic confirmations and instant team alerts.</span></p></div>
+        <div class="tile"><div class="em">💬</div><h3><span class="ar">تواصل ذكي مع الزبائن</span><span class="en">Smart customer chat</span></h3><p><span class="ar">ردود فورية ٢٤ ساعة على واتساب وماسنجر — نص وصوت وصور — وطريق مباشر من السؤال للحجز.</span><span class="en">24/7 instant replies on WhatsApp and Messenger — text, voice and images — straight from question to booking.</span></p></div>
+        <div class="tile"><div class="em">📊</div><h3><span class="ar">العملاء والبيانات</span><span class="en">Leads &amp; data</span></h3><p><span class="ar">تصنيف تلقائي للعملاء المحتملين، قاعدة بيانات منظمة، وتقارير أداء يومية.</span><span class="en">Automatic lead scoring, an organized customer database and daily performance reports.</span></p></div>
+        <div class="tile"><div class="em">🔗</div><h3><span class="ar">ربط وأتمتة</span><span class="en">Integration &amp; automation</span></h3><p><span class="ar">نربط الأدوات اللي تستعملها، ونشيل المهام المتكررة باش فريقك يركّز على النمو.</span><span class="en">I connect the tools you already use and remove repetitive tasks so your team can focus on growth.</span></p></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><h2><span class="ar">مشاريع</span><span class="en">Projects</span></h2></div>
+      <div class="proj">
+        <a class="tile" href="rico.html" style="text-decoration:none">
+          <h3><span class="ar">ريكو — مساعد ذكي بالليبي</span><span class="en">Rico — a Libyan-dialect AI assistant</span></h3>
+          <p><span class="ar">مساعد ذكي يحكي ليبي، يخدم على الكمبيوتر والتلفون بدون إنترنت، بلا تسجيل دخول ولا تتبع. متدرّب على اللهجة الليبية ويفهم الصور. ← حمّله</span><span class="en">An AI assistant that speaks Libyan Arabic and runs fully offline on computers and Android phones — no login, no tracking. Trained on the Libyan dialect and understands images. → Download</span></p>
+        </a>
+        <div class="tile">
+          <h3><span class="ar">منظومة تشغيل خدمة الزبائن</span><span class="en">AI customer operations system</span></h3>
+          <ul class="ar">
+            <li>استقبال استفسارات وحجوزات تلقائياً مع لوحة تحكم للإدارة.</li>
+            <li>ربط واتساب وماسنجر وقواعد البيانات والإشعارات الفورية في مسار واحد.</li>
+            <li>تحقق OTP وتأكيد الحجوزات تلقائياً.</li>
+            <li>تصنيف العملاء لثلاث مستويات اهتمام مع تقارير يومية.</li>
+            <li>تجربة ضغط بـ ٢٠ مستخدم في نفس الوقت، مع نموذج احتياطي يضمن استمرار الخدمة.</li>
+          </ul>
+          <ul class="en">
+            <li>Automated customer inquiries and bookings with an admin dashboard.</li>
+            <li>WhatsApp, Messenger, databases and real-time notifications in one workflow.</li>
+            <li>OTP verification and automatic booking confirmations.</li>
+            <li>Lead classification into three interest levels with daily reports.</li>
+            <li>Load-tested with 20 simultaneous users, with a fallback model for continuity.</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3><span class="ar">محتوى تعليمي بالعربي</span><span class="en">Arabic educational content</span></h3>
+          <p><span class="ar">سلسلة فيديوهات تشرح دمج الذكاء الاصطناعي مع البرامج الاحترافية: مونتاج الفيديو، أتمتة التصميم ثلاثي الأبعاد في Blender، وتطوير الألعاب بـ Godot.</span><span class="en">A video series on combining AI with professional software: video editing, 3D workflow automation in Blender, and game development with Godot.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><h2><span class="ar">طريقتي في الشغل</span><span class="en">How I work</span></h2></div>
+      <div class="flow">
+        <div class="tile"><h3><span class="ar">تحليل</span><span class="en">Analyze</span></h3><p><span class="ar">نلقى وين يضيع الوقت والفلوس والزبائن.</span><span class="en">Find where time, money and customers are lost.</span></p></div>
+        <div class="tile"><h3><span class="ar">تصميم</span><span class="en">Design</span></h3><p><span class="ar">نرسم رحلة كل زبون وكل احتياج إداري قبل البناء.</span><span class="en">Map every customer journey and management need first.</span></p></div>
+        <div class="tile"><h3><span class="ar">بناء</span><span class="en">Build</span></h3><p><span class="ar">نبني المنظومة بسرعة وبجودة.</span><span class="en">Build the system quickly and well.</span></p></div>
+        <div class="tile"><h3><span class="ar">اختبار</span><span class="en">Test</span></h3><p><span class="ar">نجرّبها على سيناريوهات حقيقية ونصلّح كل مشكلة قبل الإطلاق.</span><span class="en">Stress it with real scenarios and fix every issue before launch.</span></p></div>
+        <div class="tile"><h3><span class="ar">ربط</span><span class="en">Integrate</span></h3><p><span class="ar">نربطها بالأدوات اللي يستعملها شغلك أصلاً.</span><span class="en">Connect it with the tools you already use.</span></p></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><h2><span class="ar">أدوات وشهادات</span><span class="en">Tools &amp; certificates</span></h2></div>
+      <div class="tags" style="margin-bottom:18px">
+        <span>n8n</span><span>WhatsApp Cloud API</span><span>Messenger</span><span>Meta Business Suite</span><span>Telegram</span><span>Google Sheets</span><span>REST APIs</span><span>Webhooks</span><span>Blender</span><span>Godot</span>
+      </div>
+      <div class="grid">
+        <div class="tile"><h3><span class="ar">شهادات</span><span class="en">Certificates</span></h3><p><span class="ar">شهادة في الذكاء الاصطناعي (CPE + QAS، أكتوبر ٢٠٢٥) · شهادة ETA · شهادات المهارات المهنية من Google وLinkedIn.</span><span class="en">AI Certificate (CPE + QAS, October 2025) · ETA Certificate · Google &amp; LinkedIn professional skills certificates.</span></p></div>
+        <div class="tile"><h3><span class="ar">اللغات</span><span class="en">Languages</span></h3><p><span class="ar">العربية: اللغة الأم · الإنجليزية: مستوى عملي.</span><span class="en">Arabic: native · English: working proficiency.</span></p></div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2><span class="ar">عندك شغل يبي منظومة؟</span><span class="en">Have a business that needs a system?</span></h2>
+      <p class="lead" style="margin-bottom:22px"><span class="ar">احجز جلسة مجانية، نفهموا فيها شغلك ونقترحولك الحل.</span><span class="en">Book a free session — we'll understand your business and propose the solution.</span></p>
+      <a class="btn" href="https://giumaa-booking.netlify.app/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="ar">احجز استشارتك المجانية</span><span class="en">Book your free session</span></a>
+    </section>
+  </main>
+</div>
+<footer><div class="wrap">© 2026 <span class="ar">جمعة أبوراس</span><span class="en">Juma Abouras</span></div></footer>
+</body>
+</html>

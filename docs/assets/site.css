@@ -169,3 +169,5 @@ footer a { color: var(--ink-2); }
 
 .btn small { direction: ltr; unicode-bidi: isolate; }
 [dir="rtl"] .btn small { text-align: right; }
+
+[dir="rtl"] { --flip: scaleX(-1); }
